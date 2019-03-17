@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps1">
+        <prop key="tasks.jdbc.driver">org.sqlite.JDBC</prop>
+        <prop key="tasks.jdbc.url">jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db</prop>
+    </util:properties>
+
+    <util:properties id="jdbcProps" location="classpath:bd.config"/>
+
+    <bean id="repoArtist" class="repository.ArtistRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoSpectacol" class="repository.SpectacolRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoSpectacolArtist" class="repository.SpectacolArtistRepository">
+        <constructor-arg ref="jdbcProps"/>
+        <property name="repoS" ref="repoSpectacol"/>
+        <property name="repoA" ref="repoArtist"/>
+
+    </bean>
+
+</beans>

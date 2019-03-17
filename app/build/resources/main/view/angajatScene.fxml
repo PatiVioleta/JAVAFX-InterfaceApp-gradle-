@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="552.0" prefWidth="600.0" style="-fx-background-color: #97c99e;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AngajatSceneCtrl">
+   <children>
+      <AnchorPane layoutY="11.0" prefHeight="192.0" prefWidth="600.0" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="11.0">
+         <children>
+            <TableView fx:id="spectacoleTableView" layoutX="6.0" layoutY="-1.0" prefHeight="258.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="numeArtistCol" prefWidth="89.5999755859375" text="Nume" />
+                <TableColumn fx:id="dataCol" prefWidth="193.60003662109375" text="Data" />
+                  <TableColumn fx:id="locatieCol" prefWidth="76.79998779296875" text="Locatie" />
+                  <TableColumn fx:id="locVandCol" prefWidth="116.0" text="Locuri Vandute" />
+                  <TableColumn fx:id="locDispCol" prefWidth="122.39996337890625" text="Locuri Disponibile" />
+              </columns>
+            </TableView>
+            <ComboBox fx:id="comboZile" layoutX="26.0" layoutY="288.0" prefWidth="150.0" promptText="Alegeti ziua..." />
+            <Button layoutX="212.0" layoutY="288.0" mnemonicParsing="false" onAction="#cautareHandler" text="Cauta Artisti" />
+            <Label layoutX="458.0" layoutY="279.0" text="Vinde bilet:">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="325.0" prefHeight="219.0" prefWidth="600.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="325.0">
+         <children>
+            <TableView fx:id="cautareTableView" layoutY="38.0" prefHeight="111.0" prefWidth="406.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="38.0">
+              <columns>
+                <TableColumn fx:id="numeArtistCol2" prefWidth="102.39996337890625" text="Nume" />
+                <TableColumn fx:id="locatieCol2" prefWidth="92.800048828125" text="Locatie" />
+                  <TableColumn fx:id="oraCol2" prefWidth="94.39996337890625" text="Ora" />
+                  <TableColumn fx:id="locDispCol2" prefWidth="118.4000244140625" text="Locuri Disponibile" />
+              </columns>
+            </TableView>
+            <TextField fx:id="nrLocDorField" layoutX="430.0" layoutY="68.0" promptText="Numar de locuri" />
+            <TextField fx:id="numeCumparatorField" layoutX="430.0" layoutY="27.0" promptText="Nume Cumparator" />
+            <Button layoutX="524.0" layoutY="123.0" mnemonicParsing="false" onAction="#close" text="Logout" />
+            <Button layoutX="430.0" layoutY="123.0" mnemonicParsing="false" onAction="#vindeBiletHandler" text="Vinde Bilet" />
+            <Separator layoutX="416.0" layoutY="-45.0" orientation="VERTICAL" prefHeight="214.0" prefWidth="6.0" AnchorPane.bottomAnchor="-2.8421709430404007E-14" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,494 @@
+Æ2019-03-16 18:43:21,539 Test worker DEBUG Initializing configuration XmlConfiguration[location=C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml]
+D2019-03-16 18:43:21,550 Test worker DEBUG Installed script engines
+ﬁ2019-03-16 18:43:21,946 Test worker DEBUG Oracle Nashorn Version: 10.0.2, Language: ECMAScript, Threading: Not Thread Safe, Compile: true, Names: {nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript}
+R2019-03-16 18:43:21,947 Test worker DEBUG PluginManager 'Core' found 112 plugins
+Q2019-03-16 18:43:21,947 Test worker DEBUG PluginManager 'Level' found 0 plugins
+S2019-03-16 18:43:21,952 Test worker DEBUG PluginManager 'Lookup' found 13 plugins
+É2019-03-16 18:43:21,954 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+O2019-03-16 18:43:21,980 Test worker TRACE TypeConverterRegistry initializing.
+Z2019-03-16 18:43:21,980 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+Ò2019-03-16 18:43:21,992 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+V2019-03-16 18:43:21,993 Test worker DEBUG PluginManager 'Converter' found 41 plugins
+â2019-03-16 18:43:22,020 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+Ç2019-03-16 18:43:22,032 Test worker DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="Console", Configuration(C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml), Filter=null)
+|2019-03-16 18:43:22,034 Test worker DEBUG Jansi is not installed, cannot find org.fusesource.jansi.WindowsAnsiOutputStream
+_2019-03-16 18:43:22,035 Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+É2019-03-16 18:43:22,036 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+Ò2019-03-16 18:43:22,038 Test worker DEBUG PatternLayout$Builder(pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n", PatternSelector=null, Configuration(C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+Ü2019-03-16 18:43:22,039 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+¡2019-03-16 18:43:22,043 Test worker DEBUG FileAppender$Builder(fileName="target/test.log", append="true", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{DATE} %-5level %class{36} %L %M - %msg%n), name="log", Configuration(C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml), Filter=null)
+P2019-03-16 18:43:22,046 Test worker DEBUG Starting FileManager target/test.log
+à2019-03-16 18:43:22,047 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+L2019-03-16 18:43:22,048 Test worker DEBUG createAppenders(={Console, log})
+Ü2019-03-16 18:43:22,048 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+c2019-03-16 18:43:22,073 Test worker DEBUG createAppenderRef(ref="log", level="null", Filter=null)
+Ü2019-03-16 18:43:22,073 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+g2019-03-16 18:43:22,074 Test worker DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+ã2019-03-16 18:43:22,075 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+Ú2019-03-16 18:43:22,076 Test worker DEBUG createLogger(additivity="null", level="TRACE", includeLocation="null", ={log, Console}, ={}, Configuration(C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml), Filter=null)
+Ñ2019-03-16 18:43:22,079 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+B2019-03-16 18:43:22,081 Test worker DEBUG createLoggers(={root})
+≠2019-03-16 18:43:22,081 Test worker DEBUG Configuration XmlConfiguration[location=C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml] initialized
+™2019-03-16 18:43:22,083 Test worker DEBUG Starting configuration XmlConfiguration[location=C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml]
+≠2019-03-16 18:43:22,083 Test worker DEBUG Started configuration XmlConfiguration[location=C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml] OK.
+z2019-03-16 18:43:22,084 Test worker TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@608824af...
+~2019-03-16 18:43:22,085 Test worker TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+\2019-03-16 18:43:22,086 Test worker TRACE DefaultConfiguration stopping root LoggerConfig.
+Ä2019-03-16 18:43:22,086 Test worker TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+^2019-03-16 18:43:22,088 Test worker TRACE DefaultConfiguration stopping remaining Appenders.
+f2019-03-16 18:43:22,089 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+Ä2019-03-16 18:43:22,090 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+^2019-03-16 18:43:22,090 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+_2019-03-16 18:43:22,091 Test worker TRACE DefaultConfiguration stopped 1 remaining Appenders.
+i2019-03-16 18:43:22,091 Test worker TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+y2019-03-16 18:43:22,092 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@608824af OK
+ß2019-03-16 18:43:22,181 Test worker TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@2ae42270
+á2019-03-16 18:43:22,181 Test worker TRACE Reregistering context (1/1): '5ef04b5' org.apache.logging.log4j.core.LoggerContext@30148faf
+2019-03-16 18:43:22,182 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5'
+ñ2019-03-16 18:43:22,182 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=StatusLogger'
+ô2019-03-16 18:43:22,183 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=ContextSelector'
+ò2019-03-16 18:43:22,184 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=*'
+ö2019-03-16 18:43:22,184 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=*'
+ü2019-03-16 18:43:22,185 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=AsyncAppenders,name=*'
+ü2019-03-16 18:43:22,189 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=AsyncLoggerRingBuffer'
+´2019-03-16 18:43:22,190 Test worker TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=*,subtype=RingBuffer'
+d2019-03-16 18:43:22,191 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5
+{2019-03-16 18:43:22,194 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=StatusLogger
+~2019-03-16 18:43:22,196 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=ContextSelector
+|2019-03-16 18:43:22,197 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Loggers,name=
+Ö2019-03-16 18:43:22,199 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=Console
+Å2019-03-16 18:43:22,200 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=5ef04b5,component=Appenders,name=log
+U2019-03-16 18:43:22,202 Test worker TRACE Using default SystemClock for timestamps.
+[2019-03-16 18:43:22,203 Test worker TRACE Using DummyNanoClock for nanosecond timestamps.
+â2019-03-16 18:43:22,203 Test worker DEBUG Reconfiguration complete for context[name=5ef04b5] at URI C:\Users\pati\Desktop\UNIV\SEM4\MPP\LAB\lab2\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@30148faf) with optional ClassLoader: null
+Y2019-03-16 18:43:22,217 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+â2019-03-16 18:43:22,219 Test worker DEBUG LoggerContext[name=5ef04b5, org.apache.logging.log4j.core.LoggerContext@30148faf] started OK.
+N16 Mar 2019 18:43:22,224 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,227 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,230 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,230 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,231 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,236 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,439 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@43016eae)
+á16 Mar 2019 18:43:22,441 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+O16 Mar 2019 18:43:22,445 TRACE repository.ArtistRepository 55 findAll - Enter
+N16 Mar 2019 18:43:22,445 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,446 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,446 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,446 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,447 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,447 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,449 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c12cf7e)
+Â16 Mar 2019 18:43:22,455 TRACE repository.ArtistRepository 77 findAll - Exit with([Artist{artistId=1, name='Artist0'}, Artist{artistId=2, name='Artist1'}, Artist{artistId=3, name='Artist2'}, Artist{artistId=4, name='Artist3'}])
+N16 Mar 2019 18:43:22,456 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,456 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,457 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,457 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,458 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,458 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,460 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@644ae60c)
+á16 Mar 2019 18:43:22,469 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+j16 Mar 2019 18:43:22,541 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 93 
+N16 Mar 2019 18:43:22,541 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,542 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,542 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,542 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,543 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,543 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,547 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3138e742)
+u16 Mar 2019 18:43:22,548 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=93, name='test'})
+j16 Mar 2019 18:43:22,548 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 93 
+N16 Mar 2019 18:43:22,549 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,549 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3138e742)
+u16 Mar 2019 18:43:22,550 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=93, name='test'})
+N16 Mar 2019 18:43:22,588 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,589 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,589 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,590 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,590 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,590 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+|16 Mar 2019 18:43:22,592 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@ef4ae74)
+Ö16 Mar 2019 18:43:22,594 INFO  repository.BiletRepository 18 <init> - Initializing BiletRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+ç16 Mar 2019 18:43:22,595 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+á16 Mar 2019 18:43:22,596 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+ç16 Mar 2019 18:43:22,597 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+á16 Mar 2019 18:43:22,597 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+á16 Mar 2019 18:43:22,598 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+N16 Mar 2019 18:43:22,600 TRACE repository.BiletRepository 55 findAll - Enter
+N16 Mar 2019 18:43:22,601 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,602 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,602 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,603 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,603 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,604 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,607 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d12ab1d)
+o16 Mar 2019 18:43:22,609 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 1 
+N16 Mar 2019 18:43:22,610 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,611 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,611 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,612 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,613 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,613 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,616 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,618 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,619 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,620 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,620 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,621 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,621 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,622 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,624 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,625 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,642 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+o16 Mar 2019 18:43:22,643 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 1 
+N16 Mar 2019 18:43:22,643 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,644 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,645 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,646 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,646 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,647 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,647 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+o16 Mar 2019 18:43:22,648 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 1 
+N16 Mar 2019 18:43:22,649 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,649 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,650 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,650 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,651 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,652 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,652 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+o16 Mar 2019 18:43:22,652 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 2 
+N16 Mar 2019 18:43:22,653 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,653 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,654 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 3 
+N16 Mar 2019 18:43:22,655 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,655 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,656 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=3, name='Artist2'})
+Ÿ16 Mar 2019 18:43:22,656 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=2, location='cluj', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=3, name='Artist2'}})
+o16 Mar 2019 18:43:22,657 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 3 
+N16 Mar 2019 18:43:22,657 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,658 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,659 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 2 
+N16 Mar 2019 18:43:22,659 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,660 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,660 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=2, name='Artist1'})
+Ÿ16 Mar 2019 18:43:22,661 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=3, location='cluj', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}})
+o16 Mar 2019 18:43:22,662 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 4 
+N16 Mar 2019 18:43:22,662 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,662 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52dd92f6)
+i16 Mar 2019 18:43:22,663 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 2 
+N16 Mar 2019 18:43:22,663 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,664 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61491240)
+w16 Mar 2019 18:43:22,664 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=2, name='Artist1'})
+ÿ16 Mar 2019 18:43:22,664 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=4, location='ert', date=2019-03-20, nrLocDisp=25, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}})
+Ù	16 Mar 2019 18:43:22,675 TRACE repository.BiletRepository 79 findAll - Exit with([Bilet{biletId=1, numeCumparator='Ion', spectacol=Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5}, Bilet{biletId=2, numeCumparator='Paul', spectacol=Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5}, Bilet{biletId=3, numeCumparator='Mihai', spectacol=Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5}, Bilet{biletId=4, numeCumparator='Ana', spectacol=Spectacol{spectacolId=2, location='cluj', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=3, name='Artist2'}}, nrLocDorite=30}, Bilet{biletId=5, numeCumparator='Alina', spectacol=Spectacol{spectacolId=3, location='cluj', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}}, nrLocDorite=10}, Bilet{biletId=6, numeCumparator='Daniela', spectacol=Spectacol{spectacolId=4, location='ert', date=2019-03-20, nrLocDisp=25, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}}, nrLocDorite=10}])
+	N16 Mar 2019 18:43:22,676 TRACE repository.JdbcUtils 53 getConnection - Enter
+	Q16 Mar 2019 18:43:22,677 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+	π16 Mar 2019 18:43:22,677 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+	V16 Mar 2019 18:43:22,678 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+	Z16 Mar 2019 18:43:22,678 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+	l16 Mar 2019 18:43:22,678 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+	}16 Mar 2019 18:43:22,680 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@612e6dc8)
+	Ö16 Mar 2019 18:43:22,680 INFO  repository.BiletRepository 18 <init> - Initializing BiletRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	ç16 Mar 2019 18:43:22,681 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	á16 Mar 2019 18:43:22,682 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	ç16 Mar 2019 18:43:22,682 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	á16 Mar 2019 18:43:22,683 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	á16 Mar 2019 18:43:22,683 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+	h16 Mar 2019 18:43:22,709 TRACE repository.BiletRepository 24 findOne - Enter finding bilet with id 70 
+	N16 Mar 2019 18:43:22,710 TRACE repository.JdbcUtils 53 getConnection - Enter
+	Q16 Mar 2019 18:43:22,710 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+	π16 Mar 2019 18:43:22,710 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+	V16 Mar 2019 18:43:22,711 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+	Z16 Mar 2019 18:43:22,711 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+	l16 Mar 2019 18:43:22,712 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+	|16 Mar 2019 18:43:22,714 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@495633c)
+	p16 Mar 2019 18:43:22,715 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 11 
+	N16 Mar 2019 18:43:22,715 TRACE repository.JdbcUtils 53 getConnection - Enter
+	Q16 Mar 2019 18:43:22,716 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+	π16 Mar 2019 18:43:22,716 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+	V16 Mar 2019 18:43:22,716 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+	Z16 Mar 2019 18:43:22,717 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+	l16 Mar 2019 18:43:22,717 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+	}16 Mar 2019 18:43:22,719 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b989a58)
+	i16 Mar 2019 18:43:22,719 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+	N16 Mar 2019 18:43:22,720 TRACE repository.JdbcUtils 53 getConnection - Enter
+	Q16 Mar 2019 18:43:22,720 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+	π16 Mar 2019 18:43:22,720 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+	V16 Mar 2019 18:43:22,721 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+	Z16 Mar 2019 18:43:22,721 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+	l16 Mar 2019 18:43:22,722 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+	}16 Mar 2019 18:43:22,723 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@494aecce)
+	w16 Mar 2019 18:43:22,723 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+	ÿ16 Mar 2019 18:43:22,724 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=11, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}})
+	ó16 Mar 2019 18:43:22,725 TRACE repository.BiletRepository 39 findOne - Exit with(Bilet{biletId=70, numeCumparator='test', spectacol=Spectacol{spectacolId=11, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=0})
+	h16 Mar 2019 18:43:22,725 TRACE repository.BiletRepository 24 findOne - Enter finding bilet with id 70 
+	N16 Mar 2019 18:43:22,725 TRACE repository.JdbcUtils 53 getConnection - Enter
+	|16 Mar 2019 18:43:22,726 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@495633c)
+	p16 Mar 2019 18:43:22,726 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 11 
+	N16 Mar 2019 18:43:22,727 TRACE repository.JdbcUtils 53 getConnection - Enter
+	}16 Mar 2019 18:43:22,727 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b989a58)
+	i16 Mar 2019 18:43:22,728 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+	N16 Mar 2019 18:43:22,728 TRACE repository.JdbcUtils 53 getConnection - Enter
+	}16 Mar 2019 18:43:22,728 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@494aecce)
+	w16 Mar 2019 18:43:22,729 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+	ÿ16 Mar 2019 18:43:22,729 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=11, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}})
+	ó16 Mar 2019 18:43:22,729 TRACE repository.BiletRepository 39 findOne - Exit with(Bilet{biletId=70, numeCumparator='test', spectacol=Spectacol{spectacolId=11, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=0})
+
+N16 Mar 2019 18:43:22,749 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,750 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,750 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,750 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,750 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,751 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+|16 Mar 2019 18:43:22,752 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7dae7eb)
+
+Ö16 Mar 2019 18:43:22,753 INFO  repository.BiletRepository 18 <init> - Initializing BiletRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+ç16 Mar 2019 18:43:22,753 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+á16 Mar 2019 18:43:22,753 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+ç16 Mar 2019 18:43:22,754 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+á16 Mar 2019 18:43:22,754 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+á16 Mar 2019 18:43:22,754 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+
+i16 Mar 2019 18:43:22,755 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+
+N16 Mar 2019 18:43:22,755 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,755 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,756 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,756 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,757 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,757 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+}16 Mar 2019 18:43:22,759 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@372cfda2)
+
+w16 Mar 2019 18:43:22,760 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+
+ï16 Mar 2019 18:43:22,761 TRACE repository.BiletRepository 85 save - Enter save bilet Bilet{biletId=0, numeCumparator='test', spectacol=Spectacol{spectacolId=1, location='test', date=null, nrLocDisp=20, nrLocVand=10, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5} 
+
+N16 Mar 2019 18:43:22,761 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,761 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,762 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,762 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,762 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,763 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+}16 Mar 2019 18:43:22,765 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@291e5b15)
+
+Y16 Mar 2019 18:43:22,776 TRACE repository.BiletRepository 100 save - Exit: Error insert
+
+h16 Mar 2019 18:43:22,777 TRACE repository.BiletRepository 24 findOne - Enter finding bilet with id 71 
+
+N16 Mar 2019 18:43:22,777 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,777 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,777 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,778 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,778 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,778 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+}16 Mar 2019 18:43:22,780 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79ab1462)
+
+o16 Mar 2019 18:43:22,780 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 1 
+
+N16 Mar 2019 18:43:22,780 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,781 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,781 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,781 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,781 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,781 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+}16 Mar 2019 18:43:22,783 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1e703778)
+
+i16 Mar 2019 18:43:22,784 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+
+N16 Mar 2019 18:43:22,784 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+Q16 Mar 2019 18:43:22,784 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+
+π16 Mar 2019 18:43:22,784 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+
+V16 Mar 2019 18:43:22,784 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+
+Z16 Mar 2019 18:43:22,785 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+
+l16 Mar 2019 18:43:22,785 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+
+}16 Mar 2019 18:43:22,786 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e6108f9)
+
+w16 Mar 2019 18:43:22,787 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+
+ÿ16 Mar 2019 18:43:22,787 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+
+ó16 Mar 2019 18:43:22,787 TRACE repository.BiletRepository 39 findOne - Exit with(Bilet{biletId=71, numeCumparator='test', spectacol=Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5})
+
+h16 Mar 2019 18:43:22,787 TRACE repository.BiletRepository 24 findOne - Enter finding bilet with id 71 
+
+N16 Mar 2019 18:43:22,787 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+}16 Mar 2019 18:43:22,788 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79ab1462)
+
+o16 Mar 2019 18:43:22,788 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 1 
+
+N16 Mar 2019 18:43:22,788 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+}16 Mar 2019 18:43:22,788 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1e703778)
+
+i16 Mar 2019 18:43:22,789 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+
+N16 Mar 2019 18:43:22,789 TRACE repository.JdbcUtils 53 getConnection - Enter
+
+}16 Mar 2019 18:43:22,789 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e6108f9)
+
+w16 Mar 2019 18:43:22,790 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+
+ÿ16 Mar 2019 18:43:22,790 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+
+ó16 Mar 2019 18:43:22,790 TRACE repository.BiletRepository 39 findOne - Exit with(Bilet{biletId=71, numeCumparator='test', spectacol=Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, nrLocDorite=5})
+N16 Mar 2019 18:43:22,803 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,804 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,804 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,804 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,804 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,805 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,806 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34553a0a)
+ç16 Mar 2019 18:43:22,807 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+á16 Mar 2019 18:43:22,807 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+R16 Mar 2019 18:43:22,808 TRACE repository.SpectacolRepository 68 findAll - Enter
+N16 Mar 2019 18:43:22,809 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,809 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,809 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,809 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,810 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,810 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,812 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6de1e346)
+i16 Mar 2019 18:43:22,826 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,827 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,827 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,827 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,828 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,828 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,828 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,830 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,830 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,831 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}})
+i16 Mar 2019 18:43:22,831 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 3 
+N16 Mar 2019 18:43:22,832 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,832 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,833 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=3, name='Artist2'})
+Ÿ16 Mar 2019 18:43:22,833 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=2, location='cluj', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=3, name='Artist2'}})
+i16 Mar 2019 18:43:22,834 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 2 
+N16 Mar 2019 18:43:22,834 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,835 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,837 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=2, name='Artist1'})
+Ÿ16 Mar 2019 18:43:22,839 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=3, location='cluj', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}})
+i16 Mar 2019 18:43:22,839 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 2 
+N16 Mar 2019 18:43:22,840 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,840 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,840 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=2, name='Artist1'})
+ÿ16 Mar 2019 18:43:22,841 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=4, location='ert', date=2019-03-20, nrLocDisp=25, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}})
+i16 Mar 2019 18:43:22,842 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 4 
+N16 Mar 2019 18:43:22,842 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,842 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,843 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=4, name='Artist3'})
+ÿ16 Mar 2019 18:43:22,843 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=5, location='abc', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=4, name='Artist3'}})
+i16 Mar 2019 18:43:22,844 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 3 
+N16 Mar 2019 18:43:22,844 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,844 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,845 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=3, name='Artist2'})
+◊16 Mar 2019 18:43:22,845 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=6, location='ert', date=2019-03-20, nrLocDisp=10, nrLocVand=5, artist=Artist{artistId=3, name='Artist2'}})
+i16 Mar 2019 18:43:22,845 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,845 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,846 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,846 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,847 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=7, location='abd', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=1, name='Artist0'}})
+i16 Mar 2019 18:43:22,847 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 4 
+N16 Mar 2019 18:43:22,847 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,848 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712ae33f)
+w16 Mar 2019 18:43:22,849 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=4, name='Artist3'})
+Ÿ16 Mar 2019 18:43:22,849 TRACE repository.SpectacolRepository 94 findAll - Exit with(Spectacol{spectacolId=8, location='alba', date=2019-03-20, nrLocDisp=30, nrLocVand=25, artist=Artist{artistId=4, name='Artist3'}})
+Î16 Mar 2019 18:43:22,850 TRACE repository.SpectacolRepository 104 findAll - Exit with([Spectacol{spectacolId=1, location='abc', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=1, name='Artist0'}}, Spectacol{spectacolId=2, location='cluj', date=2019-03-20, nrLocDisp=20, nrLocVand=15, artist=Artist{artistId=3, name='Artist2'}}, Spectacol{spectacolId=3, location='cluj', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}}, Spectacol{spectacolId=4, location='ert', date=2019-03-20, nrLocDisp=25, nrLocVand=10, artist=Artist{artistId=2, name='Artist1'}}, Spectacol{spectacolId=5, location='abc', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=4, name='Artist3'}}, Spectacol{spectacolId=6, location='ert', date=2019-03-20, nrLocDisp=10, nrLocVand=5, artist=Artist{artistId=3, name='Artist2'}}, Spectacol{spectacolId=7, location='abd', date=2019-03-20, nrLocDisp=15, nrLocVand=10, artist=Artist{artistId=1, name='Artist0'}}, Spectacol{spectacolId=8, location='alba', date=2019-03-20, nrLocDisp=30, nrLocVand=25, artist=Artist{artistId=4, name='Artist3'}}])
+N16 Mar 2019 18:43:22,851 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,852 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,852 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,852 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,853 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,853 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,855 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a6fe0cc)
+ç16 Mar 2019 18:43:22,856 INFO  repository.SpectacolRepository 24 <init> - Initializing SpectacolRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+á16 Mar 2019 18:43:22,856 INFO  repository.ArtistRepository 17 <init> - Initializing ArtistRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+p16 Mar 2019 18:43:22,866 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 12 
+N16 Mar 2019 18:43:22,866 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,866 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,867 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,867 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,867 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,867 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,871 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4700359c)
+i16 Mar 2019 18:43:22,872 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,873 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,873 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,873 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,874 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,874 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,874 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,876 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61151558)
+w16 Mar 2019 18:43:22,877 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,877 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=12, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}})
+p16 Mar 2019 18:43:22,878 TRACE repository.SpectacolRepository 30 findOne - Enter finding spectacol with id 12 
+N16 Mar 2019 18:43:22,878 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,878 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4700359c)
+i16 Mar 2019 18:43:22,879 TRACE repository.ArtistRepository 24 findOne - Enter finding artist with id 1 
+N16 Mar 2019 18:43:22,879 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,879 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61151558)
+w16 Mar 2019 18:43:22,880 TRACE repository.ArtistRepository 38 findOne - Exit with(Artist{artistId=1, name='Artist0'})
+ÿ16 Mar 2019 18:43:22,880 TRACE repository.SpectacolRepository 51 findOne - Exit with(Spectacol{spectacolId=12, location='test', date=2018-01-01, nrLocDisp=1, nrLocVand=1, artist=Artist{artistId=1, name='Artist0'}})
+N16 Mar 2019 18:43:22,894 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,895 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,896 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,897 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a63a684)
+É16 Mar 2019 18:43:22,898 INFO  repository.UserRepository 15 <init> - Initializing UserRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+s16 Mar 2019 18:43:22,908 TRACE repository.UserRepository 21 findOne - Enter finding user with name test pass test
+N16 Mar 2019 18:43:22,908 TRACE repository.JdbcUtils 53 getConnection - Enter
+Q16 Mar 2019 18:43:22,908 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+π16 Mar 2019 18:43:22,908 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+V16 Mar 2019 18:43:22,908 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+Z16 Mar 2019 18:43:22,909 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+l16 Mar 2019 18:43:22,909 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+}16 Mar 2019 18:43:22,911 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@790c1983)
+~16 Mar 2019 18:43:22,915 TRACE repository.UserRepository 36 findOne - Exit with(User{userId=26, nume='test', parola='test'})
+s16 Mar 2019 18:43:22,916 TRACE repository.UserRepository 21 findOne - Enter finding user with name test pass test
+N16 Mar 2019 18:43:22,916 TRACE repository.JdbcUtils 53 getConnection - Enter
+}16 Mar 2019 18:43:22,916 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@790c1983)
+~16 Mar 2019 18:43:22,917 TRACE repository.UserRepository 36 findOne - Exit with(User{userId=26, nume='test', parola='test'})

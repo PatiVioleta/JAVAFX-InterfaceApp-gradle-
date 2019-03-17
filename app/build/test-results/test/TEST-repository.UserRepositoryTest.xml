@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="repository.UserRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-16T16:43:22" hostname="PatiVioleta" time="0.039">
+  <properties/>
+  <testcase name="findOne" classname="repository.UserRepositoryTest" time="0.039"/>
+  <system-out><![CDATA[16 Mar 2019 18:43:22,894 TRACE repository.JdbcUtils 53 getConnection - Enter
+16 Mar 2019 18:43:22,895 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+16 Mar 2019 18:43:22,895 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+16 Mar 2019 18:43:22,896 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+16 Mar 2019 18:43:22,897 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a63a684)
+16 Mar 2019 18:43:22,898 INFO  repository.UserRepository 15 <init> - Initializing UserRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db} 
+16 Mar 2019 18:43:22,908 TRACE repository.UserRepository 21 findOne - Enter finding user with name test pass test
+16 Mar 2019 18:43:22,908 TRACE repository.JdbcUtils 53 getConnection - Enter
+16 Mar 2019 18:43:22,908 TRACE repository.JdbcUtils 23 getNewConnection - Enter
+16 Mar 2019 18:43:22,908 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/pati/Desktop/UNIV/SEM4/MPP/SQLite/Festival/Festival.db
+16 Mar 2019 18:43:22,908 INFO  repository.JdbcUtils 31 getNewConnection - user: test
+16 Mar 2019 18:43:22,909 INFO  repository.JdbcUtils 32 getNewConnection - pass: passtest
+16 Mar 2019 18:43:22,909 INFO  repository.JdbcUtils 37 getNewConnection - Loaded driver ...org.sqlite.JDBC
+16 Mar 2019 18:43:22,911 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@790c1983)
+16 Mar 2019 18:43:22,915 TRACE repository.UserRepository 36 findOne - Exit with(User{userId=26, nume='test', parola='test'})
+16 Mar 2019 18:43:22,916 TRACE repository.UserRepository 21 findOne - Enter finding user with name test pass test
+16 Mar 2019 18:43:22,916 TRACE repository.JdbcUtils 53 getConnection - Enter
+16 Mar 2019 18:43:22,916 TRACE repository.JdbcUtils 62 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@790c1983)
+16 Mar 2019 18:43:22,917 TRACE repository.UserRepository 36 findOne - Exit with(User{userId=26, nume='test', parola='test'})
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
